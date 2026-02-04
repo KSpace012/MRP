@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Write Your Story | Kaali Raat</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">Kaali Raat</div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="stories/index.html">Stories</a>
+        <a class="active" href="write-your-story.html">Write Your Story</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-card">
+        <h1>Write Your Story</h1>
+        <p>
+          Every scream begins with a whisper. Share your haunted memory or a fictional nightmare and
+          we will feature it among the tales of Kaali Raat.
+        </p>
+        <p class="tagline">Choose a language, set the scene, and let the darkness speak.</p>
+      </div>
+      <div class="hero-card">
+        <h2 class="section-title">Submission Portal</h2>
+        <form class="form-panel">
+          <div>
+            <label for="author">Pen Name</label>
+            <input id="author" name="author" type="text" placeholder="Shadow Walker" />
+          </div>
+          <div>
+            <label for="language">Language</label>
+            <select id="language" name="language">
+              <option>Hindi</option>
+              <option>English</option>
+              <option>Bangali</option>
+              <option>Telugu</option>
+              <option>Tamil</option>
+              <option>Gujarati</option>
+            </select>
+          </div>
+          <div>
+            <label for="title">Story Title</label>
+            <input id="title" name="title" type="text" placeholder="The Door That Never Opened" />
+          </div>
+          <div>
+            <label for="story">Your Story</label>
+            <textarea id="story" name="story" placeholder="Write your story here..."></textarea>
+          </div>
+          <button type="submit">Seal the Story</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>The best stories are chosen under the new moon.</p>
+  </footer>
+</body>
+</html>
